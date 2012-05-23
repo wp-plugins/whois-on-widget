@@ -1,0 +1,101 @@
+	
+	h2.whois{
+	font-size: 16px; 
+	margin-bottom:10pt;
+	}
+	
+	pre.whois{
+	background:#cecece none repeat scroll 0%;  
+    line-height:1;  
+    font-size: 12px;  
+    font-family:verdana; 
+	padding-top:15pt;  
+    margin:0pt;  
+    height:465px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+	
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px;
+	
+	-webkit-border-zop-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+	}
+	
+    table {  
+    border-collapse:separate;  
+    border-spacing:0pt;  
+    }  
+    caption, th, td {  
+    font-weight:normal;  
+    text-align:left;  
+    }  
+    blockquote:before, blockquote:after, q:before, q:after {  
+    content:"";  
+    }  
+    blockquote, q {  
+    quotes:"" "";  
+    }  
+    a{  
+    cursor: pointer;  
+    text-decoration:none;  
+    }  
+    br.both{  
+    clear:both;  
+    }  
+    #backgroundPopup{  
+    display:none;  
+    position:fixed;  
+    _position:absolute; /* hack for internet explorer 6*/  
+    height:100%;  
+    width:100%;  
+    top:0;  
+    left:0;  
+    background:#000000;  
+    border:1px solid #cecece;  
+    z-index:1;  
+    }  
+    #popupContact{  
+    display:none;  
+    position:fixed; 
+    _position:absolute; /* hack for internet explorer 6*/  
+    height:600px;  
+    width:65%;  
+    background:#FFFFFF;  
+    border:2px solid #cecece;  
+    z-index:2;  
+    padding:12px;  
+    font-size:13px; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    }  
+    #popupContact h1{  
+    text-align:left;  
+    color:#6FA5FD;  
+    font-size:22px;  
+    font-weight:700;  
+    border-bottom:1px dotted #D3D3D3;  
+    padding-bottom:2px;  
+    margin-bottom:20px;  
+    }  
+    #popupContactClose{  
+    font-size:14px;  
+    line-height:14px;  
+    right:6px;  
+    top:4px;  
+    position:absolute;  
+    color:#6fa5fd;  
+    font-weight:700;  
+    display:block;  
+    }  
+	#whois_button{  
+    text-align:center; 
+     background: none repeat scroll 0 0 #FF9900;
+    color: #FFFFFF;
+    margin: 5px 0;	
+    }  
+ 
